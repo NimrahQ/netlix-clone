@@ -1,0 +1,332 @@
+:root{
+--primary-color: #e50914;
+--dark-color:#14141414;
+--light-color:#f4f4f4fa;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+    color:#9999 ;
+}
+.main-sec, .sec-sec , .third-sec, .fourth-sec, .fifth-sec , .six-sec{
+    border-bottom: 8px solid #292626;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,p{
+    color: #ffff;
+}
+.heading1{
+    text-align: center;
+    color: #ffff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.heading2{
+    padding: 1rem 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.showcase{
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/PK-en-20220829-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.showcase::after{
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 22px 71px 80px 7px rgba(0,0,0,0.89) inset;
+    -webkit-box-shadow: 22px 71px 80px 7px rgba(0,0,0,0.89) inset;
+    -moz-box-shadow: 22px 71px 80px 7px rgba(0,0,0,0.89) inset;
+}
+
+.navbar-brand{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+    z-index: 2;
+    position: relative;
+}
+.navbar-brand .logo{
+    width: 14%;
+
+}
+.navbar-brand button {
+    background-color: red;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+.showcase-content{
+   
+    position: relative;
+    z-index: 3;
+    height: 80vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.showcase-content .content-algnment{
+    width: 50%;
+    text-align: center;
+  
+}
+.showcase-content p{
+    font-size: 19px;
+    padding: 1rem 0;
+}
+.search-container{
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 5%;
+}
+.search-container input{
+    left: 0;
+    width: 100%;
+    padding: 0 1rem;
+    position: absolute;
+    /* padding-top: 13px; */
+    /* padding-bottom: 6px; */
+    /* padding-left: 12px; */
+    font-size: 17px;
+    /* width: 100%; */
+    /* padding: 1.7rem 11rem; */
+    height: 9vh;
+    border: none;
+    border-radius: 5px;
+}
+.search-container button {
+    right: -2rem;
+    background: red;
+    text-decoration: none;
+    color: #ffff;
+    height: 9vh;
+    padding: 16px 2rem;
+    font-size: 26px;
+    border: none;
+    position: absolute;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+.sec-sec, .fourth-sec{
+    background: #000;
+    padding: 2rem 0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .sec-content h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+
+}
+ .sec-content p{
+    padding: 10px 0;
+    font-size: 26px;
+}
+.sec-sec .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sec-sec .image img{
+    width: 93%;
+    z-index: 1;
+}
+.sec-sec .image video{
+    position: absolute;
+    width: 68%;
+    left: 6.3rem;
+    top: 5.3rem;
+}
+.third-sec, .six-sec{
+    background: #000;
+}
+.third-sec img{
+    width: 97%;
+}
+.card{
+    width: 65%;
+    border: 2px solid  #292626 !important;
+   border-radius: 15px !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(7, 7, 7) !important;
+    padding: 7px 0;
+    left: 5.2rem;
+    bottom: 8.3rem;
+}
+.card img{
+    width: 23%;
+    padding: 0 10px;
+}
+.card .gif{
+    display: flex;
+    justify-content: center;
+}
+.card .gif img{
+    width: 50%;
+}
+.card .para-1{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.card .para-2{
+    text-transform: capitalize;
+    font-size: 15px;
+    color:#367bc6;
+}
+.fourth-alginment{
+    width: 45%;
+    padding: 1.5rem 0;
+}
+.fifth-sec{
+    padding: 4rem 0;
+    background-color: #000;
+}
+.fifth-sec img{
+    width: 95%;
+}
+.six-sec{
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.six-sec .acc-heading{
+
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.six-sec .content-algnment{
+    width:60% ;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.accordion-item{
+    width: 70%;
+    margin: 7px 0;
+    border: none !important;
+}
+.accordion-button{
+    background-color: #303030 !important;
+    color: #fff !important;
+    padding: 1.4rem 20px !important;
+    font-size: 26px !important;
+}
+.accordion button span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} 
+.accordion button span .fa-solid, .fas {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+/* transform: translateY(10%) rotate(315deg) !important; */
+
+.accordion-sec{
+    padding: 2.5rem 0;
+}
+button:not(.collapsed)::after{
+    background-image: none !important;
+    transform: none;
+}
+.accordion-button ::after{
+   
+    background-image: none !important;
+}
+
+.footer{
+    padding: 3rem 0;
+   
+    background-color: #000;
+}
+.footer h1{
+    padding: 1rem 10.5em;
+    font-size: 16px;
+    color:#9999 ;
+}
+.footer-content{
+    /* display: flex; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-content li{
+    padding: 5px 0;
+    font-size: 14px;
+    color:#9999 ;
+}
+.footer span{
+    margin: 11rem;
+    padding: 1rem 0;
+    color:#9999 ;
+    font-size: 14px; 
+}
+/* .accordion {
+    background-color: #303030;;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align:left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 7px 0;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #303030;;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(8, 4, 4);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  } */

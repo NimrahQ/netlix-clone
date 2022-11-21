@@ -1,0 +1,256 @@
+@media (max-width: 1440px) {
+    .sec-sec .image video {
+        left: 4.4rem;
+        top: 4rem;
+    }
+    .search-container button {
+        padding: 11px 2rem;
+    }
+    .sec-sec .image video {
+        left: 6.1rem
+    }
+
+    .footer h1 {
+        padding: 1rem 11em;
+    }
+
+    .footer span {
+        margin: 11rem
+    }
+
+    .card {
+        left: 6rem;
+        bottom: 9.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sec-sec .image video {
+        left: 4.7rem;
+    }
+    .card .para-1 {
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    .card .para-2 {
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    .showcase-content .content-algnment {
+        width: 75%;
+        text-align: center;
+    }
+
+    .search-container button {
+
+        padding: 11px 2rem;
+    }
+    .card {
+        left: 5rem;
+        bottom: 6.5rem;
+    }
+
+    .heading1 {
+
+        font-size: 3em;
+    }
+
+    .heading2 {
+        padding: 0rem 0;
+    }
+
+    .sec-content h1 {
+        font-size: 2.7rem;
+    }
+
+    .sec-content p {
+        padding: 10px 0;
+        font-size: 24px;
+    }
+
+    .footer h1 {
+        padding: 1rem 6em;
+    }
+
+    .footer span {
+        margin: 6rem
+    }
+}
+@media (max-width: 768px){
+    .footer h1 {
+        padding: 1rem 3em;
+    }
+    .footer span {
+        margin: 3rem
+    }
+
+    .six-sec .acc-heading {
+        font-size: 2.7rem;
+    }
+    .six-sec .content-algnment {
+        width: 60%;
+    }
+    .accordion-button {
+        font-size: 20px !important;
+    }
+    .fourth-alginment {
+        width: 100%;
+    }
+    .card {
+        left: 6rem;
+        bottom: 10.5rem;
+    }
+    .sec-sec .image video {
+        left: 6.8rem;
+    }
+    .showcase-content .content-algnment {
+        width: 90%;
+    }
+.showcase-content p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+.navbar-brand button {
+    background-color: red;
+    padding: 7px 15px;
+    font-size: 15px;
+}
+.search-container button {
+    right: -2rem;
+    background: red;
+    text-decoration: none;
+    color: #ffff;
+    height: 9vh;
+    padding: 16px 2rem;
+    font-size: 23px;
+}
+}
+@media (max-width: 425px){
+    .footer h1 {
+        padding: 1rem 2em;
+    }
+    .footer span {
+        margin: 2rem
+    }
+    .six-sec .acc-heading {
+        font-size: 2rem;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .card {
+        left: 4rem;
+        bottom: 6.5rem;
+    }
+    .sec-sec .image video {
+        left: 3.8rem;
+    }
+    .sec-content p {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    .sec-content h1 {
+        font-size: 2rem;
+    }
+    .search-container button {
+        right: 1rem;
+        padding: 16px 2rem;
+        font-size: 15px;
+    }
+    .search-container input {
+        left: 0;
+        width: 95%;
+    }
+    .navbar-brand .logo {
+        width: 27%;
+    }
+    .showcase-content .content-algnment {
+        width: 100%;
+    }
+    .heading1 {
+        font-size: 2em;
+    }
+    .heading2 {
+        padding: 1rem 0;
+        font-size: 22px;
+    }
+    .showcase-content p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 375px){
+    .third-sec .card img{
+        width: 27%;
+    }
+    .third-sec .card .gif img {
+        width: 100%;
+    }
+    .card .para-1 {
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+    .card .para-2 {
+        text-transform: capitalize;
+        font-size: 10px;
+    }
+  
+    .search-container button {
+        right: 8px;
+        padding: 16px 2rem;
+        font-size: 15px;
+    }
+    .search-container input {
+        left: 10px;
+    }
+    .showcase-content p {
+        padding: 0 2px;
+        font-size: 15px;
+    }
+    .heading2 {
+        padding: 0;
+        font-size: 20px;
+    }
+    .navbar-brand button {
+ 
+        font-size: 13px;
+    }
+    .sec-sec .image video {
+        left: 3.5rem;
+        top: 3rem;
+    }
+    .third-sec img {
+        width: 100%;
+    }
+    .third-sec image{
+        height: 45vh;
+    }
+    .search-container button {
+        right: 0rem;
+        padding: 16px 2rem;
+        font-size: 15px;
+    }
+    .six-sec {
+        padding: 2rem 0;
+    }
+    .footer h1 {
+        padding: 1rem 1em;
+    }
+    .footer-content {
+        /* display: flex; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    .search-container input {
+        left: 0;
+        width: 65%;
+    }
+    .search-container button {
+        right: 0rem;
+        padding: 0px 1rem;
+    }
+    .sec-content p {
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+}
